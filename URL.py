@@ -215,5 +215,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-# search()
+    print("Hello,worls!")
