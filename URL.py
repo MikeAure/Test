@@ -217,3 +217,5 @@ def main():
 if __name__ == "__main__":
     print("Hello,worlds!")
     print("Vim is so powerful!")
+    print("Vim is difficult")
+    print("Trump is a joke")
