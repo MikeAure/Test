@@ -48,7 +48,7 @@ def login1():
 
 
 def login2():  # 登录获取cookie
-    Login_information = {"username": "成都理工大学", "password": "cdlgdx12345678", "ip": "103.27.25.64---国内未能识别的地区"}
+    Login_information = {"username": "成都理工大学", "password": "##########", "ip": "103.27.25.64---国内未能识别的地区"}
     Login_url = "http://dxx.scyol.com/dxxBackend/manage/login/checkLogin.html"
     sender = requests.session()
     resourse = sender.post(Login_url, headers=DATA.headers, data=Login_information)
